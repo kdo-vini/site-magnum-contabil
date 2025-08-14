@@ -407,3 +407,29 @@ section {
 .whatsapp-flutuante:hover {
     transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
 }
+/* --- ESTILO PARA LOGO EM TEXTO --- */
+.logo-texto {
+    text-decoration: none;
+    line-height: 1; /* Reduz o espaçamento entre as linhas */
+    display: flex;
+    flex-direction: column; /* Coloca um texto embaixo do outro */
+}
+
+.logo-principal {
+    font-size: 1.9rem; /* Tamanho da fonte de "Magnum" */
+    font-weight: 700; /* Deixa a fonte em negrito */
+    color: var(--black);
+}
+
+.logo-subtexto {
+    font-size: 0.8rem; /* Tamanho da fonte do subtítulo */
+    font-weight: 500;
+    color: var(--gray-tone);
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    letter-spacing: 1.5px; /* Aumenta o espaçamento entre as letras */
+}
+
+/* Regra para ajustar a altura da imagem que não existe mais (pode apagar se quiser) */
+.logo img {
+    height: 50px;
+}
